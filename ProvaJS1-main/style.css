@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f6f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 450px;
+    text-align: center;
+}
+
+h1 {
+    color: #333333;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.campo {
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555555;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+input:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.2s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#resumo {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+/* Classes de status e classificação */
+.erro {
+    color: #dc3545;
+}
+
+.grande {
+    color: #28a745;
+}
+
+.media {
+    color: #fd7e14;
+}
+
+.pequena {
+    color: #007bff;
+}
+
+#parcelas {
+    list-style: none;
+    margin-top: 15px;
+    text-align: left;
+}
+
+#parcelas li {
+    background-color: #f8f9fa;
+    padding: 8px 12px;
+    border-bottom: 1px solid #e9ecef;
+    border-radius: 4px;
+    margin-bottom: 5px;
+    color: #333333;
+}
